@@ -1,0 +1,23 @@
+CONFIGURATION
++---------------+-----------------------------------------------------------+
+| tt_title      | Teuton (2.4.0)                                            |
+| tt_scriptname | 02.test/start.rb                                          |
+| tt_configfile | 02.test/config.yaml                                       |
+| tt_pwd        | /home/david/proy/repos/teuton.d/teuton-formacion/sesion.1 |
+| tt_testname   | 02.test                                                   |
+| tt_sequence   | false                                                     |
++---------------+-----------------------------------------------------------+
+
+CASES
++------+---------+-------+-------+
+| CASE | MEMBERS | GRADE | STATE |
+| 01   | MEMBERS |   100 | ✔     |
++------+---------+-------+-------+
+
+
+RESULTS
++-------------+---------------------------+
+| start_time  | 2023-01-18 16:40:33 +0000 |
+| finish_time | 2023-01-18 16:40:33 +0000 |
+| duration    | 0.008088044               |
++-------------+---------------------------+

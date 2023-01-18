@@ -18,4 +18,8 @@ class OperationTest < Test::Unit::TestCase
   def test_sum
     assert_equal 5, @op.sum
   end
+
+  def test_mul
+    assert_equal 6, @op.mul
+  end
 end

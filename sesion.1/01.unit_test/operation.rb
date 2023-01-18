@@ -1,4 +1,3 @@
-
 class Operation
   attr_accessor :num1, :num2
 

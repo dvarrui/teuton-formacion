@@ -1,0 +1,44 @@
+CONFIGURATION
++-----------------+--------------+
+| debian_ip       | 192.168.1.97 |
+| debian_password | vagrant      |
+| debian_port     | 22           |
+| debian_protocol | ssh          |
+| debian_username | vagrant      |
+| tt_members      | MV Vagrant   |
+| tt_sequence     | false        |
+| tt_skip         | false        |
+| tt_testname     | 03.vagrant   |
++-----------------+--------------+
+
+
+GROUPS
+- GROUP NAME
+    01 (1.0/1.0)
+        Description : Crear el usuario david
+        Command     : getent passwd david
+        Duration    : 0.261 (ssh)
+        Alterations : find(david:) & count
+        Expected    : Greater than 0 (String)
+        Result      : 1 (Integer)
+    02 (1.0/1.0)
+        Description : Crear el usuario sergio
+        Command     : cat /etc/passwd
+        Duration    : 0.048 (ssh)
+        Alterations : find(sergio:) & count
+        Expected    : Greater than 0 (String)
+        Result      : 1 (Integer)
+
+RESULTS
++--------------+---------------------------+
+| case_id      | 01                        |
+| start_time   | 2023-01-18 17:17:31 +0000 |
+| finish_time  | 2023-01-18 17:17:31 +0000 |
+| duration     | 0.309392682               |
+| unique_fault | 0                         |
+| max_weight   | 2.0                       |
+| good_weight  | 2.0                       |
+| fail_weight  | 0.0                       |
+| fail_counter | 0                         |
+| grade        | 100                       |
++--------------+---------------------------+
