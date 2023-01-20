@@ -1,17 +1,17 @@
 CONFIGURATION
-+---------------+-----------------------------------------------------------+
-| tt_title      | Teuton (2.4.0)                                            |
-| tt_scriptname | 03.vagrant/start.rb                                       |
-| tt_configfile | 03.vagrant/config.yaml                                    |
-| tt_pwd        | /home/david/proy/repos/teuton.d/teuton-formacion/sesion.1 |
-| tt_testname   | 03.vagrant                                                |
-| tt_sequence   | false                                                     |
-+---------------+-----------------------------------------------------------+
++---------------+------------------------------------------------------------+
+| tt_title      | Teuton (2.4.0)                                             |
+| tt_scriptname | 03.vagrant/start.rb                                        |
+| tt_configfile | 03.vagrant/config.yaml                                     |
+| tt_pwd        | /home/quigon/proy/repos/teuton.d/teuton-formacion/sesion.1 |
+| tt_testname   | 03.vagrant                                                 |
+| tt_sequence   | false                                                      |
++---------------+------------------------------------------------------------+
 
 CASES
 +------+--------------+-------+-------+
 | CASE | MEMBERS      | GRADE | STATE |
-| 01   | MV Vagrant   |   100 | ✔     |
+| 01   | MV Vagrant   |     0 | ?     |
 | 02   | MV Localhost |     0 | ?     |
 +------+--------------+-------+-------+
 
@@ -23,7 +23,7 @@ CONN ERRORS
 
 RESULTS
 +-------------+---------------------------+
-| start_time  | 2023-01-18 17:17:31 +0000 |
-| finish_time | 2023-01-18 17:17:31 +0000 |
-| duration    | 0.31383945                |
+| start_time  | 2023-01-20 07:32:29 +0000 |
+| finish_time | 2023-01-20 07:32:29 +0000 |
+| duration    | 0.333037236               |
 +-------------+---------------------------+

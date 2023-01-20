@@ -1,15 +1,16 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-NAME = "vagrant-debian"
+NAME = "va-deb-teuton1"
 BOX = "generic/debian11"
 
 Vagrant.configure("2") do |config|
   config.vm.define NAME do |i|
     i.vm.box = BOX
     i.vm.hostname = NAME
-    #i.vm.network "public_network", bridge: [ "eth0" ]
-    i.vm.network "public_network", bridge: [ "wlp6s0" ]
+    # i.vm.network "public_network", bridge: [ "eth0" ]
+    # i.vm.network "public_network", bridge: [ "wlp6s0" ]
+    i.vm.network "public_network", bridge: [ "wlo1" ] # CHANGE INTERFACE NAME
     i.vm.network :forwarded_port, guest: 22, host: 2241
     i.vm.synced_folder "./", "/vagrant"
     i.vm.provision "shell", path: 'install-software.sh'

@@ -10,6 +10,6 @@ end
 
 play do
   show
-  export format: :html
+  export 
   send copy_to: :debian
 end
