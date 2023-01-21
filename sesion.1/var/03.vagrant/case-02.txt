@@ -11,7 +11,7 @@ CONFIGURATION
 +-----------------+--------------+
 
 LOGS
-    [07:32:29] [41mERROR[0m: [Errno::ECONNREFUSED] SSH on <vagrant@127.0.0.1> exec: getent passwd david
+    [10:22:35] [41mERROR[0m: [Errno::ECONNREFUSED] SSH on <vagrant@127.0.0.1> exec: getent passwd david
 
 GROUPS
 - GROUP NAME
@@ -33,9 +33,9 @@ GROUPS
 RESULTS
 +--------------+---------------------------+
 | case_id      | 02                        |
-| start_time   | 2023-01-20 07:32:29 +0000 |
-| finish_time  | 2023-01-20 07:32:29 +0000 |
-| duration     | 0.001066907               |
+| start_time   | 2023-01-21 10:22:35 +0000 |
+| finish_time  | 2023-01-21 10:22:35 +0000 |
+| duration     | 0.00107496                |
 | unique_fault | 0                         |
 | max_weight   | 2.0                       |
 | good_weight  | 0.0                       |
