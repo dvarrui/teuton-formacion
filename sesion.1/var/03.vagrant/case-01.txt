@@ -17,14 +17,14 @@ GROUPS
     01 (0.0/1.0)
         Description : Crear el usuario david
         Command     : getent passwd david
-        Duration    : 0.331 (ssh)
+        Duration    : 0.281 (ssh)
         Alterations : find(david:) & count
         Expected    : Greater than 0 (String)
         Result      : 0 (Integer)
     02 (0.0/1.0)
         Description : Crear el usuario sergio
         Command     : cat /etc/passwd
-        Duration    : 0.051 (ssh)
+        Duration    : 0.05 (ssh)
         Alterations : find(sergio:) & count
         Expected    : Greater than 0 (String)
         Result      : 0 (Integer)
@@ -32,9 +32,9 @@ GROUPS
 RESULTS
 +--------------+---------------------------+
 | case_id      | 01                        |
-| start_time   | 2023-01-21 10:22:35 +0000 |
-| finish_time  | 2023-01-21 10:22:36 +0000 |
-| duration     | 0.382280289               |
+| start_time   | 2023-01-21 12:55:10 +0000 |
+| finish_time  | 2023-01-21 12:55:10 +0000 |
+| duration     | 0.331528869               |
 | unique_fault | 0                         |
 | max_weight   | 2.0                       |
 | good_weight  | 0.0                       |
