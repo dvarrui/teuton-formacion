@@ -1,15 +1,8 @@
-group "GROUP NAME" do
-  target "Crear el usuario david"
-  run "getent passwd david", on: :debian
-  expect "david:"
-
-  target "Crear el usuario sergio"
-  run "cat /etc/passwd", on: :debian
-  expect "sergio:"
-end
+use "targets"
 
 play do
   show
-  export 
+  export format: :txt
+  export format: :html, feedback: false
   send copy_to: :debian
 end
