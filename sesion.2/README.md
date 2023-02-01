@@ -1,6 +1,8 @@
 
 # Sesión 2: formación sobre Teuton
 
+https://meet.jit.si/teuton-formacion
+
 ## Sesión anterior
 
 Hemos visto
@@ -13,15 +15,15 @@ Hemos visto
 ## Contenido
 
 Vamos a ver ahora:
-* Exportar a diversos formatos de salida
-* Enviar copias de los informes a las máquinas remotas
+* `export`: Exportar a diversos formatos de salida
+* `send`: Enviar copias de los informes a las máquinas remotas
 * Acceder a un host remoto sin clave
 * Acceder a un contenedor por SSH.
-* Registrar la salida de los comandos ejecutados (log result.value)
-* Detectar copias con unique
-* Organizar los targets con use
+* `log` y `result`: Registrar la salida de los comandos ejecutados (log result.value)
+* `unique`: Detectar copias con unique
+* `use`: Organizar los targets con use
 * Evaluar varios hosts del mismo alumno/a
-* Evaluar hosts detrás de un NAT
+* Evaluar hosts detrás de un NAT.
 
 ## Teuton se conecta a un docker por SSH
 
