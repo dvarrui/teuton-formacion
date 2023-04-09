@@ -1,0 +1,12 @@
+---
+global:
+  host_username: root
+cases:
+- tt_members: Alumno Debian11
+  tt_moodle_id: alumno1@moodle.com
+  host_ip: 192.168.1.16
+  host_password: vagrant
+- tt_members: Alumno apagado
+  tt_moodle_id: alumno2@moodle.com
+  host_ip: 192.168.1.66
+  host_password: vagrant
