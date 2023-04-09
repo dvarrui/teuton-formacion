@@ -1,6 +1,7 @@
 ---
 global:
   host_username: root
+  tt_sequence: false
 cases:
 - tt_members: Alumno Debian11
   tt_moodle_id: alumno1@moodle.com
