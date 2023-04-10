@@ -3,11 +3,11 @@ global:
   host_username: root
   tt_sequence: false
 cases:
-- tt_members: Alumno Debian11
+- tt_members: Alumno Debian IP16
   tt_moodle_id: alumno1@moodle.com
   host_ip: 192.168.1.16
   host_password: vagrant
-- tt_members: Alumno apagado
+- tt_members: Alumno Debian IP41
   tt_moodle_id: alumno2@moodle.com
-  host_ip: 192.168.1.66
+  host_ip: 192.168.1.41
   host_password: vagrant
